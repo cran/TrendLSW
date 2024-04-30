@@ -1,6 +1,6 @@
-1b4c9deef755e94113320117ae7650f1 *DESCRIPTION
+18a96a12e9eb64a4804f2da0bddd9bc1 *DESCRIPTION
 8ea1e0247f4cf8df468d0d6e5d0895c6 *NAMESPACE
-578eba2e04e03a5212ac563c1ff8423a *NEWS.md
+c2f8c645b67cfecb263abff8d48ba81e *NEWS.md
 bbd8c25872ae327da931dac7d45814b5 *R/Atau.mat.calc.R
 54e6c4d5ed0285ea856d728371314eb2 *R/Cmat.calc.R
 a8481e0f7fdbd947358010a8040b1e9b *R/TLSW.R
@@ -16,7 +16,10 @@ dbaf251490b5ab4cb82020929f3b253a *R/print.TLSW.R
 19abe0dea5a2e52500e20e268f26b779 *R/wav.diff.trend.est.R
 27b7a29ef2ebd5f4c00813fb51a4ceab *R/wav.trend.est.R
 228a38f5244a394c27d96d514a8d14dc *README.md
+439bf689fa27cf9affd0335332142165 *build/partial.rdb
 55013686a01dc6d0c21de63a5494a894 *data/celegensbio.RData
+48c3f5aa102285fc08ddfd2c8a36044f *data/z.acc.RData
+b24519843d8be1e4f9a318282ea555dc *data/z.labels.RData
 31bd7a71434ef2212a4a200c78c1d494 *man/Atau.mat.calc.Rd
 eeab5fcf7c5aee6ad308025c28fc7378 *man/Cmat.calc.Rd
 f9f3df32886336eec4777997b2453c4e *man/TLSW.Rd
@@ -34,6 +37,8 @@ acdf5b34e49f6c351b3c0650e6ea3c55 *man/plot.TLSW.Rd
 12903f27771bf0f70f0be5674a13be02 *man/summary.TLSW.Rd
 5ae787e86e53b40bc879d40b802ed3ac *man/wav.diff.trend.est.Rd
 d3b4ec87291ba6525a4311741367c9ba *man/wav.trend.est.Rd
+329e42c0d245f75c49f091bf46c648c3 *man/z.acc.Rd
+0a5aff233d0fb315f5c9b89b2bb37b34 *man/z.labels.Rd
 2837333a978430ca7317281a0a32d173 *tests/testthat.R
 7fbf53869f9486213a24e0101cc1c96a *tests/testthat/_snaps/TLSW-utils.md
 00e0b46c669f1f89acd1a10bb3fd897a *tests/testthat/_snaps/TLSW-utils/plotlsw-testing.svg
