@@ -143,11 +143,11 @@
 #' @examples
 #' # simulates an example time series and estimates its trend and evolutionary wavelet spectrum
 #'
-#' spec <- matrix(0, nrow = 10, ncol = 2^10)
+#' spec <- matrix(0, nrow = 9, ncol = 2^9)
 #'
-#' spec[1, ] <- seq(from = 1, to = 10, length = 1024)
+#' spec[1, ] <- seq(from = 1, to = 9, length = 512)
 #'
-#' trend <- sin(pi * (seq(from = 0, to = 4, length = 1024)))
+#' trend <- sin(pi * (seq(from = 0, to = 4, length = 512)))
 #'
 #' set.seed(1)
 #'
@@ -170,7 +170,7 @@ TLSW <- function(x, do.trend.est = TRUE, do.spec.est = TRUE,
                  T.CI = FALSE, T.sig.lvl = 0.05, T.reps = 200,
                  T.CI.type = "normal",
                  T.lacf.max.lag = floor(10 * (log10(length(x)))),
-                 S.filter.number = 4, S.family = "DaubExPhase", S.smooth = TRUE,
+                 S.filter.number = T.filter.number, S.family = T.family, S.smooth = TRUE,
                  S.smooth.type = "mean",
                  S.binwidth = floor(6 * sqrt(length(x))),
                  S.max.scale = floor(log2(length(x)) * 0.7),

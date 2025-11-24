@@ -1,7 +1,7 @@
 Package: TrendLSW
 Type: Package
 Title: Wavelet Methods for Analysing Locally Stationary Time Series
-Version: 1.0.2
+Version: 1.0.4
 Authors@R: c(person("Euan T.", "McGonigle", email="e.t.mcgonigle@soton.ac.uk",role=c("aut", "cre")),
         person("Rebecca","Killick", role="aut"),
         person("Matthew","Nunes", role="aut"))
@@ -19,13 +19,13 @@ LazyData: true
 Imports: wavethresh, locits
 URL: https://github.com/EuanMcGonigle/TrendLSW
 BugReports: https://github.com/EuanMcGonigle/TrendLSW/issues
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Suggests: testthat (>= 3.0.0), vdiffr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-04-30 18:05:12 UTC; euanmcgonigle
+Packaged: 2025-11-24 21:14:56 UTC; euanmcgonigle
 Author: Euan T. McGonigle [aut, cre],
   Rebecca Killick [aut],
   Matthew Nunes [aut]
 Repository: CRAN
-Date/Publication: 2024-04-30 18:20:02 UTC
+Date/Publication: 2025-11-24 21:30:02 UTC
